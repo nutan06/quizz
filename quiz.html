@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Quiz on Capitals</title>
+	<!--Stylesheets-->
+	<link rel="stylesheet" href="css/style.css">
+	<link href='http://fonts.googleapis.com/css?family=Noto+Sans|Permanent+Marker' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<!-- JavaScript -->
+		<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/quiz.js"></script>
+</head>
+<body>
+<!--Heading-->
+<div class="main">
+	<h1>Capital Quiz</h1>
+</div>
+<!--Modal window-->
+<div class="welcomepg" >
+	<div class="text">
+	<p>How good are you in the knowledge of countries and their capitals?</p><br>
+	<p>Let us have a quiz. In the following flashcards there will be name of the country. There will be four possible answers. Click on the answer you think is correct. </p><br>
+	<p>Why wait,lets begin!</p>
+	</div>
+	<div class="start">
+	<button type="button" class="btn btn-primary">Let us Start!</button>
+	</div>	
+</div>
+
+<!--flash cards-->
+<div class="flashcard-container" style="display:none;">
+			<div class="question">
+				<div id="que">
+					<span class="queindex">1</span>
+					<h2 id="questioN"></h2>
+					<div id="flag"></div>	
+				</div>
+				<ul id="answers">
+					<li><span class="number"></span></li>
+					<li><span class="number"></span></li>
+					<li><span class="number"></span></li>
+					<li><span class="number"></span></li>
+				</ul>
+				<div id="info-answer"></div><br>
+			</div>	
+			<div class="congrats" style="display:none;">
+				<h1>THANKS FOR PLAYING!</h1>
+				<h3>You got <span>4</span> correct</h3>
+			</div>
+			<!--progressbar-->
+			<div id="progressbar">
+					<div id="prev">
+						< Prev
+					</div>
+					<div class="barholder">
+						<div class="progress">
+			  				<div class="progress-bar" role="progressbar">
+			    			<p class="completion"><span>0</span>% complete</p>
+			  				</div>
+						</div>
+  					</div>
+					<div id="next">Next >
+					</div>
+					<p>Score:  <span class="score">0 </span> /10 are correct</p>
+			</div>
+	
+</div>	
+</body>
+</html>

@@ -1,0 +1,196 @@
+/*---------------------------------------------------------------------------------
+   http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+---------------------------------------------------------------------------------*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*--css style--*/
+body{
+	background-image: url('../images/slate.png');
+}
+.main{
+	position:relative;
+	color:#ffffff;
+	font-family: 'Permanent Marker', cursive;
+	text-align: center;
+	text-decoration: underline;
+	font-size:4em;
+	margin-top:1.5em;
+}
+/*modalwindow style*/
+.welcomepg{
+	width:50%;
+	background-color:#ffffff;
+	font-family: 'Noto Sans', sans-serif;
+	position:relative;
+	margin:3.5em auto;
+	border-radius: 5px;
+
+}
+.text{
+	padding:2.5em;
+	color: #000000;
+	font-size:1.5em;
+}
+.start{
+	margin:2em;
+	padding:2em;
+}
+button:hover{
+	cursor: pointer;
+	background-color: #002bc9;
+}
+.question,.congrats{
+	width:40%;
+	/*height:400px;*/
+	font-family: 'Noto Sans', sans-serif;
+	color:#003d81;
+	position:relative;
+	margin:3.5em auto;
+	border-radius: 5px;
+	background-image:url('../images/Newsprint.jpg');
+	box-shadow: 5px 5px 5px #333333;
+}
+
+#progressbar{
+	color:#ffffff;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 2em;
+	margin: 0 auto;
+  	width: 40%;
+  	padding:0.5em;
+}
+#prev{
+	float: left;
+	padding-right:1em;
+}
+#next{
+	float:right;
+	margin-top:-45px;
+}
+#prev:hover,#next:hover{
+	cursor: pointer;
+}
+#que{
+	font-size: 2.5em;
+	font-weight:bold;
+	text-align:center;
+	padding-top:1em;
+}
+#answers{
+	text-align:left;
+	margin:auto;
+	width:50%;
+	font-size:1.5em;
+}
+.selected{
+	font-style:italic;
+}
+li{
+	padding:0.5em;
+}
+li:hover{
+	cursor:pointer;
+}
+.queindex{
+  font-weight: normal;
+  font-size: 0.75em;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 0.01em 0.3em;
+  background-color: #fff;
+  margin-bottom:0.5em;
+}
+#questioN{
+	padding:0.5em;
+}
+.number{
+	padding:0.75em;
+	border: 1px solid;
+  border-radius: 5px;
+  padding: 0.01em 0.3em;
+  background-color: #fff;
+  margin:0 1em;
+ }
+ .barholder{
+ 	width:80%;
+ }
+ .score{
+ 	text-align:center;
+ }
+ #info-answer{
+ 	text-align: center;
+  margin: 1em auto;
+  padding: 1em;
+  font-family: 'Noto Sans', sans-serif;
+	color:#003d81;
+	border-radius: 5px;
+	font-size: 1.5em;
+	background-color:#ffffff;
+	border: 2px solid #003d81;
+  width: 80%;
+  }
+ .completion span{
+ 	color:#ffffff;
+ 	font-size:15px;
+ 	text-align:center;
+ }
+ 
+ .congrats>h1 {
+ 	text-align:center;
+ 	padding:1em;
+ }
+ .congrats>h3{
+ 	text-align:center;
+ 	padding:0.5em 1em 1em 1em;
+ }
+ #flag{
+ 	width:220px;
+ 	height:145px;
+ 	margin:auto;
+ }
+ 
+ 
